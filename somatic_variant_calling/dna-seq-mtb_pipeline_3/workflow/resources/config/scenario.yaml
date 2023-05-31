@@ -1,0 +1,92 @@
+# This scenario is templated with Jinja2 and rendered for each group (see sample sheet).
+# A variable `samples` is available, holding the dataframe of
+# the sample sheet, filtered to those samples contained in the group to be rendered.
+# For example, this can be used to pass arbitrary column values (like the purity below),
+# to the sample definitions.
+# Note that sample names here must correspond to the alias column in the sample sheet.
+
+__definitions__:
+  - import pandas as pd
+  - |
+    samples = params.samples.set_index("alias")
+    if "ffpe" not in samples.columns:
+      samples["ffpe"] = pd.NA
+  - sex = samples.loc["tumor", "sex"]
+  - |
+    if pd.isna(sex) or sex not in ["male", "female"]:
+        raise ValueError(f"Unsupported sex in sample sheet (also ensure that sample sheet is entirely tab separated): {sex}")
+  - is_ffpe = samples.loc["tumor", "ffpe"]
+  - |
+    def contamination():
+      return 1.0 - float(samples.loc["tumor", "purity"])
+
+species:
+  heterozygosity: 0.001
+  germline-mutation-rate: 1e-3
+  ploidy:
+    male:
+      all: 2
+      X: 1
+      Y: 1
+    female:
+      all: 2
+      X: 2
+      Y: 0
+  genome-size: 3.5e9
+
+?if is_ffpe:
+  expressions:
+    ffpe_subst: "C>T | G>A"
+
+?if "normal" in samples.index:
+  samples:
+    tumor:
+      sex: ?sex
+      somatic-effective-mutation-rate: 1e-6
+      inheritance:
+        clonal:
+          from: normal
+          somatic: true
+      contamination:
+        by: normal
+        fraction: ?contamination()
+    normal:
+      sex: ?sex
+      somatic-effective-mutation-rate: 1e-6
+      contamination:
+        by: tumor
+        fraction: 0.03
+
+  events:
+    somatic_tumor_high: "normal:0.0 & tumor:[0.1,1.0]"
+    somatic_normal_or_ctc: "(normal:]0.0,0.5[ | normal:]0.5,1.0[) & tumor:[0.0,1.0]"
+    loh: "normal:0.5 & tumor:1.0"
+    loh_or_amplification: "normal:0.5 & tumor:[0.9,1.0["
+    germline: "(normal:0.5 & tumor:[0.0,0.9[) | (normal:1.0 & tumor:[0.0,1.0])"
+    ?if is_ffpe:
+      ffpe_artifact: "($ffpe_subst) & tumor:]0.0,0.05["
+      somatic_tumor_low: "normal:0.0 & ((($ffpe_subst) & tumor:]0.05,0.1[) | (!($ffpe_subst) & tumor:]0.0,0.1[))"
+    ?else:
+      somatic_tumor_low: "normal:0.0 & tumor:]0.0,0.1["
+
+?else:
+  samples:
+    tumor:
+      resolution: 0.01
+      universe: "[0.0,1.0]"
+      sex: ?sex
+      contamination:
+        by: normal
+        fraction: ?contamination()
+    normal:
+      universe: "0.0 | 0.5 | 1.0"
+      sex: ?sex
+
+  events:
+    somatic_tumor_high: "normal:0.0 & tumor:[0.1,1.0]"
+    germline: "(normal:0.5 & tumor:0.5) | (normal:1.0 & tumor:1.0)"
+    ?if is_ffpe:
+      ffpe_artifact: "($ffpe_subst) & tumor:]0.0,0.05["
+      somatic_tumor_low: "normal:0.0 & ((($ffpe_subst) & tumor:]0.05,0.1[) | (!($ffpe_subst) & tumor:]0.0,0.1[))"
+    ?else:
+      somatic_tumor_low: "normal:0.0 & tumor:]0.0,0.1["

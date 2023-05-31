@@ -1,0 +1,39 @@
+##### set minimum snakemake version #####
+from snakemake.utils import min_version
+min_version("6.1.0")
+
+from snakemake.utils import validate
+
+# with --use-conda --use-singularity
+container: "docker://continuumio/miniconda3"
+
+
+##### load config and sample sheets #####
+import pandas as pd
+
+configfile: "config/config.yaml"
+# ToDo: # validate(config, "schemas/config.schema.yaml") # validate sample_sheet...
+
+SAMPLES = pd.read_table(config["samples"], sep="\t", dtype={"sample_name": str}).set_index("sample_name", drop=False)
+samples = SAMPLES["sample_name"].unique()
+units = pd.read_csv(config["samples"], sep="\t", dtype={"sample_name": str, "unit_name": str}).set_index(["sample_name", "unit_name"], drop=False).sort_index()
+
+
+##### target rules #####
+
+rule all:
+    input:
+        "results/arriba/tables/merged_arriba_results.tsv",
+        "results/oncoprint/fusions_oncoprint.pdf",
+        "results/oncoprint/fusion_mates_oncoprint.pdf",
+        ((expand("results/arriba/drawed_fusions/{sample}.pdf", sample=samples)) if config["arriba"]["draw_fusions"] else (expand("results/arriba/tables/fusions/{sample}.tsv", sample=samples))),
+        "results/gene_count.tsv"
+
+
+##### load rules #####
+include: "rules/common.smk"
+include: "rules/trimming.smk"
+include: "rules/ref.smk"
+include: "rules/star.smk"
+include: "rules/arriba.smk"
+include: "rules/oncoprint.smk"

@@ -1,0 +1,65 @@
+$schema: "https://json-schema.org/draft-08/schema#"
+description: an entry in the sample sheet
+
+Reference:
+  type: object
+  release:
+    type: integer
+  required:
+    - release 
+
+
+
+trimming:
+  type: object
+  skip: 
+    type: boolean
+  cutadapt_params:
+    type: string
+  required:
+    - skip
+    - type
+
+star_mapping:
+  type: object
+  star_threads:
+    type: integer
+  star_index_Overhang:
+    type: integer
+  star_params:
+    type: string
+  required:
+    - star_threads
+    - star_index_Overhang
+    - star_params
+
+  
+arriba:
+  type: object
+  default_lists:
+    type: boolean
+  blacklist:
+    type: string
+  known_fusions:
+    type: string
+  cytobands:
+    type: string
+  protein_domains:
+    type: string
+  arriba_params:
+    type: string
+  draw_fusions:
+    type: boolean
+  arriba_draw_params:
+    type: string
+  required:
+    - default_lists
+    - draw_fusions
+
+
+oncoprint:
+  type: object
+  title:
+    type: string
+  required:
+    - title

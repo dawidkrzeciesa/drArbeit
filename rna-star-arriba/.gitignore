@@ -1,0 +1,17 @@
+*
+
+!config/config.yaml
+
+!workflow
+!workflow/*
+!workflow/envs/*
+!workflow/report/*
+!workflow/rules/*
+!workflow/schemas/*
+!workflow/scripts/*
+workflow/scripts/draw_fusions.R
+
+!LICENSE
+!README.md
+!.gitignore
+

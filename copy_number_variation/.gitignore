@@ -1,0 +1,10 @@
+/.snakemake
+/.vscode
+/results/*
+/INPUT/*
+/logs/*
+*.cnn
+*.log
+*.zip
+/refs/*
+.DS_Store

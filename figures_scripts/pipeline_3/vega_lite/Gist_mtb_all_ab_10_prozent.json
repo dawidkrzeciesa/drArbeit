@@ -1,0 +1,3300 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "gene": "KIT",
+        "consequence": "frameshift_variant,inframe_deletion,inframe_insertion,missense_variant,protein_altering_variant,splice_region_variant",
+        "GIST-E-P01": "X",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "X",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "X",
+        "GIST-E-P12": "X",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "X",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 0
+      },
+      {
+        "gene": "ZFP36L1",
+        "consequence": "frameshift_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "X",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 1
+      },
+      {
+        "gene": "APC",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "X",
+        "GIST-E-P20": "",
+        "index": 2
+      },
+      {
+        "gene": "RELN",
+        "consequence": "missense_variant,splice_region_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "X",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "X",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 3
+      },
+      {
+        "gene": "MAX",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "X",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "X",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 4
+      },
+      {
+        "gene": "DEK",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "X",
+        "index": 5
+      },
+      {
+        "gene": "KMT2B",
+        "consequence": "missense_variant,splice_region_variant,stop_gained",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "X",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 6
+      },
+      {
+        "gene": "CSDE1",
+        "consequence": "frameshift_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "X",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 7
+      },
+      {
+        "gene": "CHD2",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "X",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 8
+      },
+      {
+        "gene": "SDHA",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "X",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 9
+      },
+      {
+        "gene": "ACSL3",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 45
+      },
+      {
+        "gene": "PPP6C",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "X",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 15
+      },
+      {
+        "gene": "PPP2R1A",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "X",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 11
+      },
+      {
+        "gene": "POLQ",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 12
+      },
+      {
+        "gene": "PIK3CA",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "X",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 13
+      },
+      {
+        "gene": "PDS5B",
+        "consequence": "stop_gained",
+        "GIST-E-P01": "X",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 14
+      },
+      {
+        "gene": "PDGFRA",
+        "consequence": "inframe_deletion,missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "X",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 10
+      },
+      {
+        "gene": "PBRM1",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "X",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 16
+      },
+      {
+        "gene": "PTPN13",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 17
+      },
+      {
+        "gene": "PAK1",
+        "consequence": "inframe_deletion",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "X",
+        "index": 18
+      },
+      {
+        "gene": "NSD1",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 19
+      },
+      {
+        "gene": "NOTCH3",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 20
+      },
+      {
+        "gene": "NOTCH2",
+        "consequence": "protein_altering_variant",
+        "GIST-E-P01": "X",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 21
+      },
+      {
+        "gene": "NIN",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "X",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 22
+      },
+      {
+        "gene": "NCOA2",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "X",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 23
+      },
+      {
+        "gene": "NBN",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "X",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 24
+      },
+      {
+        "gene": "PDE4DIP",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 25
+      },
+      {
+        "gene": "PTPRK",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "X",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 26
+      },
+      {
+        "gene": "RB1",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "X",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 27
+      },
+      {
+        "gene": "RALGDS",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 28
+      },
+      {
+        "gene": "ZFHX3",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "X",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 29
+      },
+      {
+        "gene": "XPA",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 30
+      },
+      {
+        "gene": "WAS",
+        "consequence": "splice_region_variant,synonymous_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "X",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 31
+      },
+      {
+        "gene": "TTL",
+        "consequence": "splice_region_variant,synonymous_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 32
+      },
+      {
+        "gene": "TRIP11",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 33
+      },
+      {
+        "gene": "TRAF5",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 34
+      },
+      {
+        "gene": "TFG",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "X",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 35
+      },
+      {
+        "gene": "TCF12",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "X",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 36
+      },
+      {
+        "gene": "TCEA1",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "X",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 37
+      },
+      {
+        "gene": "SPEN",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "X",
+        "GIST-E-P20": "",
+        "index": 38
+      },
+      {
+        "gene": "SMARCA2",
+        "consequence": "inframe_deletion",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "X",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 39
+      },
+      {
+        "gene": "SMAD4",
+        "consequence": "stop_gained",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 40
+      },
+      {
+        "gene": "SMAD2",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "X",
+        "index": 41
+      },
+      {
+        "gene": "SLFN11",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "X",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 42
+      },
+      {
+        "gene": "SETD2",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 43
+      },
+      {
+        "gene": "SETD1A",
+        "consequence": "frameshift_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "X",
+        "index": 44
+      },
+      {
+        "gene": "RNF43",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "X",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 46
+      },
+      {
+        "gene": "NADK",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "X",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 47
+      },
+      {
+        "gene": "RABEP1",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "X",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 48
+      },
+      {
+        "gene": "MTOR",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "X",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 49
+      },
+      {
+        "gene": "MGA",
+        "consequence": "frameshift_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 50
+      },
+      {
+        "gene": "MKI67",
+        "consequence": "frameshift_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 51
+      },
+      {
+        "gene": "DDR2",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 52
+      },
+      {
+        "gene": "CUL3",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 53
+      },
+      {
+        "gene": "CTR9",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "X",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 54
+      },
+      {
+        "gene": "COP1",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "X",
+        "index": 55
+      },
+      {
+        "gene": "CCNB3",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "X",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 56
+      },
+      {
+        "gene": "CASP8",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 57
+      },
+      {
+        "gene": "CACNA1D",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "X",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 58
+      },
+      {
+        "gene": "BRCA2",
+        "consequence": "stop_gained",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "X",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 59
+      },
+      {
+        "gene": "BCR",
+        "consequence": "splice_region_variant,synonymous_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "X",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 60
+      },
+      {
+        "gene": "BCOR",
+        "consequence": "frameshift_variant,stop_gained",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "X",
+        "index": 61
+      },
+      {
+        "gene": "AXIN2",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "X",
+        "index": 62
+      },
+      {
+        "gene": "ATXN7",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "X",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 63
+      },
+      {
+        "gene": "ATM",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 64
+      },
+      {
+        "gene": "ARID2",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 65
+      },
+      {
+        "gene": "ARHGEF12",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "X",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 66
+      },
+      {
+        "gene": "AMER1",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "X",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 67
+      },
+      {
+        "gene": "ACVR1B",
+        "consequence": "missense_variant,splice_region_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "X",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 68
+      },
+      {
+        "gene": "DNMT3A",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "X",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 69
+      },
+      {
+        "gene": "EBF1",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "X",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 70
+      },
+      {
+        "gene": "ECT2L",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "X",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 71
+      },
+      {
+        "gene": "FBXW7",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "X",
+        "GIST-E-P20": "",
+        "index": 72
+      },
+      {
+        "gene": "MGAM",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "X",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 73
+      },
+      {
+        "gene": "MERTK",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "X",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 74
+      },
+      {
+        "gene": "MAPK1",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "X",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 75
+      },
+      {
+        "gene": "LTB",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "X",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 76
+      },
+      {
+        "gene": "LRP5",
+        "consequence": "inframe_deletion",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "X",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 77
+      },
+      {
+        "gene": "LRP1B",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "X",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 78
+      },
+      {
+        "gene": "JARID2",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 79
+      },
+      {
+        "gene": "IRS4",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 80
+      },
+      {
+        "gene": "MSH3",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "X",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 81
+      },
+      {
+        "gene": "IRF8",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 82
+      },
+      {
+        "gene": "IL21R",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 83
+      },
+      {
+        "gene": "HLA-C",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 84
+      },
+      {
+        "gene": "HLA-B",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 85
+      },
+      {
+        "gene": "HLA-A",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "X",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 86
+      },
+      {
+        "gene": "H3C3",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "X",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 87
+      },
+      {
+        "gene": "GOLGA5",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "X",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 88
+      },
+      {
+        "gene": "GAS7",
+        "consequence": "stop_gained",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "X",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 89
+      },
+      {
+        "gene": "GAB2",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "X",
+        "GIST-E-P20": "",
+        "index": 90
+      },
+      {
+        "gene": "IRF1",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "",
+        "GIST-E-P15": "X",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 91
+      },
+      {
+        "gene": "ZMYM3",
+        "consequence": "missense_variant",
+        "GIST-E-P01": "",
+        "GIST-E-P02": "",
+        "GIST-E-P03": "",
+        "GIST-E-P04": "",
+        "GIST-E-P05": "",
+        "GIST-E-P06": "",
+        "GIST-E-P07": "",
+        "GIST-E-P08": "",
+        "GIST-E-P09": "",
+        "GIST-E-P10": "",
+        "GIST-E-P11": "",
+        "GIST-E-P12": "",
+        "GIST-E-P13": "",
+        "GIST-E-P14": "X",
+        "GIST-E-P15": "",
+        "GIST-E-P16": "",
+        "GIST-E-P17": "",
+        "GIST-E-P18": "",
+        "GIST-E-P19": "",
+        "GIST-E-P20": "",
+        "index": 92
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "layer": [
+        {
+          "mark": {"type": "text", "align": "left"},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'gene'",
+                "labelAngle": -90,
+                "labelOffset": 7,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "text": {"field": "gene", "type": "nominal", "title": "gene"}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P01'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P01",
+              "type": "nominal",
+              "title": "GIST-E-P01",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P01"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P02'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P02",
+              "type": "nominal",
+              "title": "GIST-E-P02",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P02"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P03'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P03",
+              "type": "nominal",
+              "title": "GIST-E-P03",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P03"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P04'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P04",
+              "type": "nominal",
+              "title": "GIST-E-P04",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P04"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P05'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P05",
+              "type": "nominal",
+              "title": "GIST-E-P05",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P05"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P06'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P06",
+              "type": "nominal",
+              "title": "GIST-E-P06",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P06"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P07'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P07",
+              "type": "nominal",
+              "title": "GIST-E-P07",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P07"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P08'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P08",
+              "type": "nominal",
+              "title": "GIST-E-P08",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P08"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P09'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P09",
+              "type": "nominal",
+              "title": "GIST-E-P09",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P09"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P10'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P10",
+              "type": "nominal",
+              "title": "GIST-E-P10",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P10"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P11'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P11",
+              "type": "nominal",
+              "title": "GIST-E-P11",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P11"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P12'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P12",
+              "type": "nominal",
+              "title": "GIST-E-P12",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P12"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P13'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P13",
+              "type": "nominal",
+              "title": "GIST-E-P13",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P13"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P14'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P14",
+              "type": "nominal",
+              "title": "GIST-E-P14",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P14"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P15'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P15",
+              "type": "nominal",
+              "title": "GIST-E-P15",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P15"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P16'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P16",
+              "type": "nominal",
+              "title": "GIST-E-P16",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P16"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P17'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P17",
+              "type": "nominal",
+              "title": "GIST-E-P17",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P17"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P18'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P18",
+              "type": "nominal",
+              "title": "GIST-E-P18",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P18"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P19'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P19",
+              "type": "nominal",
+              "title": "GIST-E-P19",
+              "scale": {
+                "domain": [
+
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X",
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P19"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'GIST-E-P20'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "GIST-E-P20",
+              "type": "nominal",
+              "title": "GIST-E-P20",
+              "scale": {
+                "domain": [
+
+                  "X"
+                ],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "GIST-E-P20"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "style": {
+      "cell": {"stroke": "transparent"},
+      "guide-label": {"fontWeight": "bold"}
+    },
+    "concat": {"spacing": 0},
+    "text": {"limit": 135}
+  }
+}

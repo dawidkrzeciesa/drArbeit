@@ -1,0 +1,1573 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        " gene": "ARID1A",
+        "consequence": "frameshift_variant",
+        "CCS-CK-P1": " ",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 0
+      },
+      {
+        " gene": "SMC3",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": " ",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 1
+      },
+      {
+        " gene": "SMARCA2",
+        "consequence": "inframe_deletion",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": " ",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 2
+      },
+      {
+        " gene": "RPS6KA4",
+        "consequence": "frameshift_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": " ",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 3
+      },
+      {
+        " gene": "PTPRO",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": " ",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 4
+      },
+      {
+        " gene": "POLG",
+        "consequence": "inframe_deletion",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": " ",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 5
+      },
+      {
+        " gene": "PCLO",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": " ",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 6
+      },
+      {
+        " gene": "NUP214",
+        "consequence": "splice_region_variant,stop_gained",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": " ",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 7
+      },
+      {
+        " gene": "MYO5A",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": " ",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 8
+      },
+      {
+        " gene": "MRE11",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": " ",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 9
+      },
+      {
+        " gene": "MDC1",
+        "consequence": "frameshift_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": " ",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 10
+      },
+      {
+        " gene": "TET1",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": " ",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 11
+      },
+      {
+        " gene": "LRP5",
+        "consequence": "inframe_deletion",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": " ",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 12
+      },
+      {
+        " gene": "IRF8",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": " ",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 13
+      },
+      {
+        " gene": "IGF1R",
+        "consequence": "frameshift_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": " ",
+        "index": 14
+      },
+      {
+        " gene": "HSP90AB1",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": " ",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 15
+      },
+      {
+        " gene": "HEY1",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": " ",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 16
+      },
+      {
+        " gene": "HDAC4",
+        "consequence": "frameshift_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": " ",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 17
+      },
+      {
+        " gene": "GATA6",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": " ",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 18
+      },
+      {
+        " gene": "DNMT3A",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": " ",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 19
+      },
+      {
+        " gene": "DEK",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": " ",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 20
+      },
+      {
+        " gene": "CRTC3",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": " ",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 21
+      },
+      {
+        " gene": "ASXL1",
+        "consequence": "frameshift_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": " ",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 22
+      },
+      {
+        " gene": "KMT2D",
+        "consequence": "stop_gained",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": "",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": " ",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 23
+      },
+      {
+        " gene": "WRN",
+        "consequence": "missense_variant",
+        "CCS-CK-P1": "",
+        "CCS-CK-P2": "",
+        "CCS-CK-P3": "",
+        "CCS-E-P01": " ",
+        "CCS-E-P02": "",
+        "CCS-E-P03": "",
+        "CCS-E-P04": "",
+        "CCS-E-P05": "",
+        "CCS-E-P06": "",
+        "CCS-E-P07": "",
+        "CCS-E-P08": "",
+        "CCS-E-P09": "",
+        "CCS-HD-P01": "",
+        "CCS-HD-P02": "",
+        "CCS-HD-P03": "",
+        "CCS-HD-P04": "",
+        "CCS-HD-P06": "",
+        "CCS-HD-P07": "",
+        "CCS-HD-P08": "",
+        "CCS-HD-P10": "",
+        "CCS-HD-P11": "",
+        "CCS-HD-P13": "",
+        "index": 24
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "layer": [
+        {
+          "mark": {"type": "text", "align": "left"},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "' gene'",
+                "labelAngle": -90,
+                "labelOffset": 7,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "text": {"field": " gene", "type": "nominal", "title": " gene"}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-CK-P1'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-CK-P1",
+              "type": "nominal",
+              "title": "CCS-CK-P1",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-CK-P1"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-CK-P2'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-CK-P2",
+              "type": "nominal",
+              "title": "CCS-CK-P2",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-CK-P2"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-CK-P3'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-CK-P3",
+              "type": "nominal",
+              "title": "CCS-CK-P3",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-CK-P3"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-E-P01'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-E-P01",
+              "type": "nominal",
+              "title": "CCS-E-P01",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-E-P01"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-E-P02'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-E-P02",
+              "type": "nominal",
+              "title": "CCS-E-P02",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-E-P02"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-E-P03'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-E-P03",
+              "type": "nominal",
+              "title": "CCS-E-P03",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-E-P03"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-E-P04'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-E-P04",
+              "type": "nominal",
+              "title": "CCS-E-P04",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-E-P04"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-E-P05'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-E-P05",
+              "type": "nominal",
+              "title": "CCS-E-P05",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-E-P05"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-E-P06'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-E-P06",
+              "type": "nominal",
+              "title": "CCS-E-P06",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-E-P06"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-E-P07'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-E-P07",
+              "type": "nominal",
+              "title": "CCS-E-P07",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-E-P07"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-E-P08'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-E-P08",
+              "type": "nominal",
+              "title": "CCS-E-P08",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-E-P08"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-E-P09'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-E-P09",
+              "type": "nominal",
+              "title": "CCS-E-P09",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-E-P09"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-HD-P01'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-HD-P01",
+              "type": "nominal",
+              "title": "CCS-HD-P01",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-HD-P01"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-HD-P02'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-HD-P02",
+              "type": "nominal",
+              "title": "CCS-HD-P02",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-HD-P02"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-HD-P03'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-HD-P03",
+              "type": "nominal",
+              "title": "CCS-HD-P03",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-HD-P03"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-HD-P04'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-HD-P04",
+              "type": "nominal",
+              "title": "CCS-HD-P04",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-HD-P04"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-HD-P06'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-HD-P06",
+              "type": "nominal",
+              "title": "CCS-HD-P06",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-HD-P06"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-HD-P07'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-HD-P07",
+              "type": "nominal",
+              "title": "CCS-HD-P07",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-HD-P07"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-HD-P08'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-HD-P08",
+              "type": "nominal",
+              "title": "CCS-HD-P08",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-HD-P08"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-HD-P10'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-HD-P10",
+              "type": "nominal",
+              "title": "CCS-HD-P10",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-HD-P10"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-HD-P11'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-HD-P11",
+              "type": "nominal",
+              "title": "CCS-HD-P11",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-HD-P11"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "rect", "align": "left", "width": 0},
+          "encoding": {
+            "x": {
+              "field": "dummy",
+              "axis": {
+                "labelExpr": "'CCS-HD-P13'",
+                "labelAngle": -90,
+                "title": null,
+                "ticks": false,
+                "orient": "top",
+                "domain": false
+              }
+            },
+            "y": {"field": "index", "type": "ordinal", "axis": null},
+            "color": {
+              "field": "CCS-HD-P13",
+              "type": "nominal",
+              "title": "CCS-HD-P13",
+              "scale": {
+                "domain": [" "],
+                "type": "ordinal",
+                "scheme": "paired"
+              },
+              "legend": null
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "xOffset": -6},
+          "encoding": {
+            "text": {"field": "CCS-HD-P13"},
+            "y": {"field": "index", "type": "ordinal", "axis": null}
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "style": {
+      "cell": {"stroke": "transparent"},
+      "guide-label": {"fontWeight": "bold"}
+    },
+    "concat": {"spacing": 0},
+    "text": {"limit": 135}
+  }
+}

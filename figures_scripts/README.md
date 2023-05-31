@@ -1,0 +1,1 @@
+This directory contains scripts used for generating additional figures used in the thesis.

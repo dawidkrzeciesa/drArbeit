@@ -1,0 +1,1 @@
+Gene fusions were splitted into "fusion mates" and are shown as a heatmap (OncoPrint).

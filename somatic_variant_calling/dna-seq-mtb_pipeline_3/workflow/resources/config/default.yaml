@@ -1,0 +1,466 @@
+__definitions__:
+  - |
+    def get_events(event_type):
+        if event_type == "somatic":
+          return ["somatic_tumor_high", "somatic_tumor_low"]
+        if event_type == "loh":
+          return ["loh", "loh_or_amplification"]
+  - |
+    def get_description(event_type):
+        if event_type == "somatic":
+          return "somatic variants"
+        if event_type == "loh":
+          return "LOH or amplification of alt allele"
+
+samples: config/samples.tsv
+
+units: config/units.tsv
+
+# Optional BED file with target regions
+#target_regions: "raw/V5UTR.bed"
+
+ref:
+  # Number of chromosomes to consider for calling.
+  # The first n entries of the FASTA will be considered.
+  n_chromosomes: 25
+  # Ensembl species name
+  species: homo_sapiens
+  # Ensembl release
+  release: 108
+  # Genome build
+  build: GRCh38
+
+primers:
+  trimming:
+    activate: false
+    # path to fasta files containg primer sequences
+    primers_fa1: "path/to/primer-fa1"
+    primers_fa2: "path/to/primer-fa2"
+    # optional primer file allowing to define primers per sample
+    # overwrites primers_fa1 and primers_fa2
+    # the tsv file requires three fields: panel, fa1 and fa2 (optional)
+    tsv: ""
+    # Mean insert size between the outer primer ends.
+    # If 0 or not set the bowtie default value of 250 will be used
+    library_length: 0
+
+# Estimation of tumor mutational burden.
+mutational_burden:
+  activate: true
+  # Plotting modes - hist (stratified histogram)
+  # or curve (stratified curve)
+  mode:
+    - curve
+  events:
+    - somatic_tumor_low
+    - somatic_tumor_high
+
+# printing of variants in a matrix, sorted by recurrence
+report:
+  # if stratificatio is deactivated, one oncoprint for all
+  # samples will be created.
+  activate: true
+  max_read_depth: 250
+  stratify:
+    activate: false
+    # select a sample sheet column for stratification
+    by-column: condition
+
+# printing of variants in a table format
+tables:
+  activate: true
+  output:
+    event_prob: true
+    observations: true
+    annotation_fields:
+      - REVEL
+  generate_excel: true
+
+calling:
+  delly:
+    activate: true
+  freebayes:
+    activate: true
+  # See https://varlociraptor.github.io/docs/calling/#generic-variant-calling
+  scenario: config/scenario.yaml
+  filter:
+    candidates: >-
+      not any(
+        (consequence in set(['intergenic variant', 'upstream_gene_variant', 'downstream_gene_variant']))
+        for consequence in ANN['Consequence'].split("&")
+      ) and
+      not ('intron_variant' in ANN['Consequence'] and not 'splice_region_variant' in ANN['Consequence'])
+    allele_frequency_high: >-
+      FORMAT['AF']['tumor'] >= 0.1
+    allele_frequency_low: >-
+      FORMAT['AF']['tumor'] < 0.1
+    allele_frequency_25_precent: >-
+      FORMAT['AF']['tumor'] >= 0.25
+    revel_malign: >-
+      (ANN['REVEL'] is NA or ANN['REVEL'] > 0.5)
+    impact_moderate: >-
+      ANN['IMPACT'] == 'MODERATE'
+    impact_high: >-
+      ANN['IMPACT'] == 'HIGH'
+    novel: >-
+      not (ID and ID.startswith('rs'))
+    pathogenic_risk_factor_drug_response: >-
+      (not {'risk_factor', 'pathogenic', 'likely_pathogenic', 'drug_response'}.isdisjoint(ANN['CLIN_SIG'])) and 
+      (ANN['IMPACT'] in {'LOW', 'MODERATE', 'HIGH'})
+    loh_relevant: >-
+      ANN['IMPACT'] != 'LOW' and ANN['IMPACT'] != 'MODIFIER' and
+      not (set(["benign", "likely benign"]) > set(ANN['CLIN_SIG']) and "benign" in ANN['CLIN_SIG'])
+    cancer_relevant: >-
+      ANN['IMPACT'] != 'MODIFIER' and ANN['Consequence'] != 'synonymous_variant'
+    splice_mutation: >-
+      'splice' in ANN['Consequence']
+    cancer_genes:
+      aux-files:
+        cancer_genes: ../resources/config/gene-sets/cancer-genes.txt
+      expression: "ANN['SYMBOL'] in AUX['cancer_genes']"
+    pi3k_pathway:
+      aux-files:
+        pathway_genes: ../resources/config/gene-sets/PI3K_AKT_mTOR.txt
+      expression: >-
+        ANN['SYMBOL'] in AUX['pathway_genes']
+    raf_pathway:
+      aux-files:
+        pathway_genes: ../resources/config/gene-sets/RAF_MEK_ERK.txt
+      expression: >-
+        ANN['SYMBOL'] in AUX['pathway_genes']
+    cell_cycle:
+      aux-files:
+        cell_cycle: ../resources/config/gene-sets/Cell_Cycle.txt
+      expression: "ANN['SYMBOL'] in AUX['cell_cycle']"
+    dna_damage_response:
+      aux-files:
+        dna_damage_response: ../resources/config/gene-sets/DNA_Damage_Response.txt
+      expression: "ANN['SYMBOL'] in AUX['dna_damage_response']"
+    g1_topart:
+      aux-files:
+        g1_topart: ../resources/config/gene-sets/G1_TOPART.txt
+      expression: "ANN['SYMBOL'] in AUX['g1_topart']"
+    tyrosine_kinases:
+      aux-files:
+        tyrosine_kinases: ../resources/config/gene-sets/Tyrosine_Kinases.txt
+      expression: "ANN['SYMBOL'] in AUX['tyrosine_kinases']"
+  fdr-control:
+    threshold: 0.05
+    local: true
+    events:
+      ?for event_type in ["somatic", "loh"]:
+        ?f"{event_type}_impact_moderate_novel_high_vaf":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - impact_moderate
+            - novel
+            - revel_malign
+            - allele_frequency_high
+          sort:
+            - revel
+            - 'tumor: allele frequency'
+          desc: |
+            ?f"Novel {get_description(event_type)} with moderate impact and high allele frequency."
+          labels:
+            callset: VUS
+            impact: moderate
+            VAF: high
+          subcategory: ?get_description(event_type)
+
+        ?f"{event_type}_impact_moderate_novel_low_vaf":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - impact_moderate
+            - novel
+            - revel_malign
+            - allele_frequency_low
+          sort:
+            - 'tumor: allele frequency'
+            - revel
+          desc: |
+            ?f"Novel {get_description(event_type)} with moderate impact and low allele frequency."
+          labels:
+            callset: VUS
+            impact: moderate
+            VAF: low
+          subcategory: ?get_description(event_type)
+
+        ?f"{event_type}_impact_high_novel_high_vaf":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - impact_high
+            - novel
+            - revel_malign
+            - allele_frequency_high
+          sort:
+            - revel
+            - 'tumor: allele frequency'
+          desc: |
+            ?f"Novel {get_description(event_type)} with high impact and high allele frequency."
+          labels:
+            callset: VUS
+            impact: high
+            VAF: high
+          subcategory: ?get_description(event_type)
+
+        ?f"{event_type}_impact_high_novel_low_vaf":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - impact_high
+            - novel
+            - revel_malign
+            - allele_frequency_low
+          sort:
+            - 'tumor: allele frequency'
+            - revel
+          desc: |
+            ?f"Novel {get_description(event_type)} with high impact and low allele frequency."
+          labels:
+            callset: VUS
+            impact: high
+            VAF: low
+          subcategory: ?get_description(event_type)
+
+        ?f"{event_type}_pathogenic_risk_factor_drug_response":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - pathogenic_risk_factor_drug_response
+          sort:
+            - impact
+            - revel
+            - 'tumor: allele frequency'
+          desc: |
+            ?f"{get_description(event_type)} being pathogenic or risk factor high."
+          labels:
+            callset: pathogenic, risk factor, or drug response
+            impact: low, moderate, high
+            VAF: any
+          subcategory: ?get_description(event_type)
+        
+        ?f"{event_type}_splice_variants":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - splice_mutation
+            - revel_malign
+            - novel
+          sort:
+            - impact
+            - revel
+          desc: ?f"{get_description(event_type)} close to splice sites"
+          labels:
+            callset: splice site variants
+            impact: any
+            VAF: any
+          subcategory: ?get_description(event_type)
+
+        ?f"{event_type}_cancer_genes":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - cancer_relevant
+            - cancer_genes
+          sort:
+            - impact
+            - revel
+          desc: ?f"{get_description(event_type)} affecting known cancer genes with low to high impact."
+          labels:
+            callset: cancer genes
+            impact: low, moderate, high
+            VAF: any
+          subcategory: ?get_description(event_type)
+
+        ?f"{event_type}_cancer_genes_VAF_high":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - cancer_relevant
+            - cancer_genes
+            - allele_frequency_high
+          sort:
+            - impact
+            - revel
+          desc: ?f"{get_description(event_type)} affecting known cancer genes VAF>10% with low to high impact."
+          labels:
+            callset: cancer genes
+            impact: low, moderate, high
+            VAF: high
+          subcategory: ?get_description(event_type)
+
+
+        ?f"{event_type}_cancer_genes_VAF_25_precent":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - cancer_relevant
+            - cancer_genes
+            - allele_frequency_25_precent
+          sort:
+            - impact
+            - revel
+          desc: ?f"{get_description(event_type)} affecting known cancer genes VAF>10% with low to high impact."
+          labels:
+            callset: cancer genes
+            impact: low, moderate, high
+            VAF: 25_precent
+          subcategory: ?get_description(event_type)
+
+        ?f"{event_type}_pi3k_pathway":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - cancer_relevant
+            - pi3k_pathway
+          sort:
+            - impact
+            - revel
+          desc: |
+            ?f"{get_description(event_type)} affecting PI3K-AKT-mTOR pathway genes, sorted by impact and revel scores while discarding synonymous variants."
+          labels:
+            callset: PI3K-AKT-mTOR pathway
+            impact: low, moderate, high
+            VAF: any
+          subcategory: ?get_description(event_type)
+
+        ?f"{event_type}_raf_pathway":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - cancer_relevant
+            - raf_pathway
+          sort:
+            - impact
+            - revel
+          desc: |
+            ?f"{get_description(event_type)} affecting RAF-MEK-ERK pathway genes, sorted by impact and revel scores while discarding synonymous variants."
+          labels:
+            callset: RAF-MEK-ERK pathway
+            impact: low, moderate, high
+            VAF: any
+          subcategory: ?get_description(event_type)
+
+        ?f"{event_type}_cell_cycle":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - cancer_relevant
+            - cell_cycle
+          sort:
+            - impact
+            - revel
+          desc: |
+            ?f"{get_description(event_type)} affecting cell cycle genes with low to high impact."
+          labels:
+            callset: cell cycle
+            impact: low, moderate, high
+            VAF: any
+          subcategory: ?get_description(event_type)
+
+        ?f"{event_type}_dna_damage_response":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - cancer_relevant
+            - dna_damage_response
+          sort:
+            - impact
+            - revel
+          desc: |
+            ?f"{get_description(event_type)} affecting dna damage resonse genes with low to high impact."
+          labels:
+            callset: dna damage response
+            impact: low, moderate, high
+            VAF: any
+          subcategory: ?get_description(event_type)
+
+        ?f"{event_type}_g1_topart":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - cancer_relevant
+            - g1_topart
+          sort:
+            - impact
+            - revel
+          desc: |
+            ?f"{get_description(event_type)} affecting G1 topart genes with low to high impact."
+          labels:
+            callset: G1 topart
+            impact: low, moderate, high
+            VAF: any
+          subcategory: ?get_description(event_type)
+
+        ?f"{event_type}_tyrosine_kinases":
+          varlociraptor:
+            ?get_events(event_type)
+          filter:
+            - cancer_relevant
+            - tyrosine_kinases
+          sort:
+            - impact
+            - revel
+          desc: |
+            ?f"{get_description(event_type)} affecting tyrosine kinases genes with low to high impact."
+          labels:
+            callset: tyrosine kinases
+            impact: low, moderate, high
+            VAF: any
+          subcategory: ?get_description(event_type)
+
+# If calc_consensus_reads is activated duplicates will be merged
+remove_duplicates:
+  activate: true
+
+# Experimental: calculate consensus reads from PCR duplicates.
+# if 'remove_duplicates' is deactivate only overlapping pairs will be merged
+calc_consensus_reads:
+  activate: false
+
+annotations:
+  vcfs:
+    activate: true
+    # annotate with known variants from ensembl
+    known: resources/variation.vcf.gz
+    # add more external VCFs as needed
+    # cosmic: path/to/cosmic.vcf.gz
+  dgidb:
+    # annotate variants with drug interactions of affected genes
+    activate: false
+    # List of datasources for filtering dgidb entries
+    # Available sources can be found on http://dgidb.org/api/v2/interaction_sources.json
+    datasources:
+      - DrugBank
+  vep:
+    # Consider removing --everything if VEP is slow for you (e.g. for WGS), 
+    # and think carefully about which annotations you need.
+    params: --everything --check_existing
+    plugins:
+      # Add any plugin from https://www.ensembl.org/info/docs/tools/vep/script/vep_plugins.html
+      # Plugin args can be passed as well, e.g. "LoFtool,path/to/custom/scores.txt".
+      - LoFtool
+      - REVEL
+
+params:
+  cutadapt: ""
+  picard:
+    MarkDuplicates: "--VALIDATION_STRINGENCY LENIENT"
+  gatk:
+    BaseRecalibrator: ""
+    applyBQSR: ""
+  varlociraptor:
+    # add extra arguments for varlociraptor call
+    # For example, in case of panel data consider to omit certain bias estimations
+    # which might be misleading because all reads of an amplicon have the sample start
+    # position, strand etc. (--omit-strand-bias, --omit-read-position-bias, 
+    # --omit-softclip-bias, --omit-read-orientation-bias).
+    call: ""
+    # Add extra arguments for varlociraptor preprocess. By default, we limit the depth to 200.
+    # Increase this value for panel sequencing!
+    preprocess: "--max-depth 200"
+  freebayes:
+    min_alternate_fraction: 0.05 # Reduce for calling variants with lower VAFs
