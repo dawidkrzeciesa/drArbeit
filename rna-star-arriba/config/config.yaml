@@ -1,0 +1,44 @@
+# path/to/samples_sheet.tsv
+samples: config/sample_sheet.tsv
+
+
+Reference:
+  # www.ensembl.org -> homo sapiens -> GRCh38 -> release number:
+  release: 108     # >= 81
+
+
+# if skip = false, please provide adapters in the samples_sheet.tsv
+# See user manual https://cutadapt.readthedocs.io/en/stable/
+trimming:
+  skip: true       # false or true
+  cutadapt_params: "--minimum-length 10"
+
+
+# See user manual https://github.com/alexdobin/STAR/blob/master/doc/
+star_mapping:
+  star_threads: 16    # star multithreading
+  star_index_Overhang: "100" # ideal value is max(ReadLength)-1
+# Recomended parameter. See arriba manual
+  star_params: "--quantMode GeneCounts --outSAMtype BAM SortedByCoordinate --chimSegmentMin 10 --chimOutType WithinBAM HardClip --chimJunctionOverhangMin 10 --chimScoreDropMax 30 --chimScoreJunctionNonGTAG 0 --chimScoreSeparation 1 --alignSJstitchMismatchNmax 5 -1 5 5 --chimSegmentReadGapMax 3 --outFilterMultimapNmax 50 --peOverlapNbasesMin 10 --alignSplicedMateMapLminOverLmate 0.5 --chimMultimapNmax 50"
+
+
+# User manual https://arriba.readthedocs.io/en/v2.1.0/ 
+arriba:
+  default_lists: true    # false or true
+  
+# if arriba_default_lists = false, plesae provide own lists (see arriba user manual)
+  blacklist: "path/to"
+  known_fusions: "path/to"
+  tag: "path/to"
+  cytobands: "path/to"
+  protein_domains: "path/to"
+
+# other parameter such as filter (see arriba user manual)
+  arriba_params: ""
+
+# if needed draw fusions
+  draw_fusions: false     # false or true
+  arriba_draw_params: ""
+
+oncoprint:
+  title: "OncoPrint Title"  
